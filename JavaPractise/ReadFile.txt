@@ -1,0 +1,7 @@
+Selenium is an automation tool
+Automation can be done using selenium
+TestNG
+Selenium
+Automation
+Selenium
+TestNG can be used along with selenium 

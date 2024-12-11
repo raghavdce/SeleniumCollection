@@ -1,0 +1,10 @@
+05-01-2024 - 10:05:50.327 [main] WARN  com.jktech.Apackage.TestCaseA - from Test Case A and warn type
+05-01-2024 - 10:05:50.332 [main] ERROR com.jktech.Apackage.TestCaseA - from Test Case A and error type
+05-01-2024 - 10:05:50.333 [main] FATAL com.jktech.Apackage.TestCaseA - from Test Case A and fatal type
+05-01-2024 - 10:06:17.178 [main] WARN  com.jktech.Apackage.TestCaseA - from Test Case A and warn type
+05-01-2024 - 10:06:17.182 [main] ERROR com.jktech.Apackage.TestCaseA - from Test Case A and error type
+05-01-2024 - 10:06:17.182 [main] FATAL com.jktech.Apackage.TestCaseA - from Test Case A and fatal type
+05-01-2024 - 10:06:37.352 [main] WARN  com.jktech.Apackage.TestCaseA - from Test Case A and warn type
+05-01-2024 - 10:06:37.356 [main] ERROR com.jktech.Apackage.TestCaseA - from Test Case A and error type
+05-01-2024 - 10:06:37.358 [main] FATAL com.jktech.Apackage.TestCaseA - from Test Case A and fatal type
+11-12-2024 - 17:02:58.462 [main] WARN  com.jktech.Apackage.TestCaseA - from Test Case A and warn type

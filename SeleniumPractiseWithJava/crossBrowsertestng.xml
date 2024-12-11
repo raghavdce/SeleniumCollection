@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test name="ChromTest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.testngpractice.CrossBrowser"></class>
+		</classes>
+	</test>
+	<test name="FFTest">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.selenium.testngpractice.CrossBrowser"></class>
+		</classes>
+	</test>
+	<test name="MSTest">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="com.selenium.testngpractice.CrossBrowser"></class>
+		</classes>
+	</test>
+</suite>

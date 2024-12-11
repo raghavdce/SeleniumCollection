@@ -1,0 +1,13 @@
+The candidate does not have automation knowledge but can be given a chance if we have opening for manual testing. Candidate is rated based on Automation knowledge. For manual testing I will rate him as 4/5
+
+The candidate does not have automation knowledge but can be given a chance if we have opening for manual testing
+
+Candidate is good at manual testing and did well in manual testing concepts as well as in test case design
+Automation - selenium with Java but candidate does not have any knowledge on automation but good at manual testing 
+
+
+
+Candidate needs to work both on Java as well as selenium especially on Testng concepts. Also, unable to solve the programs from java as well as Selenium scenario.
+Unable to solve sort by values using hashmap as well as unable to solve sorting the string based on the given scenario
+Unable to give a solution for the given scenario when to choose between list and set
+unable to solve and get the web element text from a ajax call loading page.

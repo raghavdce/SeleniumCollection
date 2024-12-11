@@ -1,0 +1,2 @@
+11-12-2024 - 17:02:58.469 [main] ERROR com.jktech.Apackage.TestCaseA - from Test Case A and error type
+11-12-2024 - 17:02:58.486 [main] FATAL com.jktech.Apackage.TestCaseA - from Test Case A and fatal type

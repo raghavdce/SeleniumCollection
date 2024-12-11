@@ -1,0 +1,30 @@
+Refer https://beginnersbook.com/2014/01/abstract-method-with-examples-in-java/
+
+Ajax call can be handled with the help of waits:
+
+1. Write a program to get the text "WebDriver" after the user has clicked "Click me to start timer" button from 
+https://seleniumpractise.blogspot.com/2016/08/how-to-use-explicit-wait-in-selenium.html
+
+2. Write a program to click the "Facebook" option when user clicks the "dropdown" button using the following website
+https://omayo.blogspot.com/
+
+Lazy loading and hasmap:
+
+1. Open a e-commerce website like amazon or flipkart and search for a product like shoe or something. 
+Then ask the candidate to get the count of total search result displayed as well as the corresponding prod name and its price
+
+TestNg Listener:
+
+1. How will you rerun the failed test cases alone using testng listeners
+2. How will you capture the screenshot for failed testcases using testng listeners
+
+Dynamic webtable:
+
+1. Get Maximum of all the Values in a Column of Dynamic Table
+http://demo.guru99.com/test/web-table-element.php
+
+
+For java questions:
+1. How will you sort the map based on keys
+2. How will you sort the map based on values
+3. 

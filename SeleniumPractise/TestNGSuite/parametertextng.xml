@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Parameters Suite">
+   <test name="Params">
+      <parameter name="username" value="standard_user" />
+      <parameter name="password" value="secret_sauce" />
+      <classes>
+         <class name="com.jktech.TestNG.Parameters" />
+      </classes>
+   </test>
+</suite>

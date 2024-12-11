@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-11T10:12:18 IST" name="Suite" finished-at="2024-12-11T10:12:58 IST" duration-ms="39890">
+    <groups>
+    </groups>
+    <test started-at="2024-12-11T10:12:18 IST" name="ChromTest" finished-at="2024-12-11T10:12:28 IST" duration-ms="10111">
+      <class name="com.selenium.testngpractice.CrossBrowser">
+        <test-method signature="parametersExample(java.lang.String)[pri:0, instance:com.selenium.testngpractice.CrossBrowser@63a12c68]" started-at="2024-12-11T10:12:18 IST" name="parametersExample" finished-at="2024-12-11T10:12:28 IST" duration-ms="10028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametersExample -->
+      </class> <!-- com.selenium.testngpractice.CrossBrowser -->
+    </test> <!-- ChromTest -->
+    <test started-at="2024-12-11T10:12:28 IST" name="FFTest" finished-at="2024-12-11T10:12:46 IST" duration-ms="18263">
+      <class name="com.selenium.testngpractice.CrossBrowser">
+        <test-method signature="parametersExample(java.lang.String)[pri:0, instance:com.selenium.testngpractice.CrossBrowser@194bcebf]" started-at="2024-12-11T10:12:28 IST" name="parametersExample" finished-at="2024-12-11T10:12:46 IST" duration-ms="18260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametersExample -->
+      </class> <!-- com.selenium.testngpractice.CrossBrowser -->
+    </test> <!-- FFTest -->
+    <test started-at="2024-12-11T10:12:46 IST" name="MSTest" finished-at="2024-12-11T10:12:58 IST" duration-ms="11435">
+      <class name="com.selenium.testngpractice.CrossBrowser">
+        <test-method signature="parametersExample(java.lang.String)[pri:0, instance:com.selenium.testngpractice.CrossBrowser@f0da945]" started-at="2024-12-11T10:12:46 IST" name="parametersExample" finished-at="2024-12-11T10:12:58 IST" duration-ms="11433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametersExample -->
+      </class> <!-- com.selenium.testngpractice.CrossBrowser -->
+    </test> <!-- MSTest -->
+  </suite> <!-- Suite -->
+</testng-results>

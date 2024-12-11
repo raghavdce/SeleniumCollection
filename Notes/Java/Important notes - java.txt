@@ -1,0 +1,32 @@
+1. Arrays
+int a[] = new int[5] or int a[] = {1,2,3,4,5};
+Single dimension array amd two/multi dimension array
+2. Strings
+a. concatenate strings
+b. how to find length of a string
+c. equals
+d. equalsignorecase
+e. contains
+f. substring
+g. replace
+3. Method overloading
+4. Method overiding
+5. inheritance
+a. types of inheritance
+6. constructor
+Constructor overloading
+7. static
+8. system.out.println()
+9. public static void main(String args[])
+10. JDK,JRE,JVM
+11. final
+12. Interface
+a. variables --> static and final by defualt
+b. Methods --> are abstract and public by defualt
+c. can't instantiate the interface
+13. Access modifiers
+a. Public
+b. default
+c. protected
+d. private
+
