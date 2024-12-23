@@ -17,7 +17,7 @@ public class TestCaseB {
 		log.error("from Test Case B and error type");
 		log.trace("from Test Case B and trace type");
 		log.fatal("from Test Case B and fatal type");
-
+		log.debug("from Test Case B and fatal type");
 	}
 
 }

@@ -20,27 +20,22 @@ public class BrowserProfileChrome {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		
-		
-		/*
-		 * System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")
-		 * +"//Drivers//Chromedriver.exe"); DesiredCapabilities SSL =
-		 * DesiredCapabilities.chrome();
-		 * SSL.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true); String
-		 * chromeProfilePath =
-		 * "C:\\Users\\Ragavendran.v\\\\AppData\\Local\\Google\\Chrome\\User Data\\";
-		 * ChromeOptions options = new ChromeOptions();
-		 * options.setExperimentalOption("excludeSwitches", new
-		 * String[]{"enable-automation"}); options.addArguments("user-data-dir=" +
-		 * chromeProfilePath); //options.addArguments("profile-directory=Profile 2");
-		 * options.addArguments("--user-data-dir=C:\\Selenium\\SeleniumProfile");
-		 * options.addArguments("--start-maximized"); options.merge(SSL); WebDriver
-		 * driver = new ChromeDriver(options);
-		 * driver.get("https://demo.guru99.com/test/web-table-element.php");
-		 */
-		 
-		  //for firefox browser
+
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//Drivers//Chromedriver.exe");
+		//DesiredCapabilities SSL = DesiredCapabilities.chrome();
+		//SSL.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+		String chromeProfilePath = "C:\\Users\\Ragavendran.v\\AppData\\Local\\Google\\Chrome\\User Data\\";
+		ChromeOptions options = new ChromeOptions();
+		options.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
+		options.addArguments("user-data-dir=" + chromeProfilePath); // options.addArguments("profile-directory=Profile
+																	// 2");
+		options.addArguments("--user-data-dir=C:\\Selenium\\SeleniumProfile");
+		options.addArguments("--start-maximized");
+		//options.merge(SSL);
+		WebDriver driver = new ChromeDriver(options);
+		driver.get("https://demo.guru99.com/test/web-table-element.php");
+
+		// for firefox browser
 //			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "//Drivers//geckodriver.exe");
 //			ProfilesIni profile = new ProfilesIni();
 //			FirefoxProfile myprofile = profile.getProfile("Rumble");
@@ -50,10 +45,9 @@ public class BrowserProfileChrome {
 //			WebDriver driver1 = new FirefoxDriver(ffoptions);
 //			driver1.get("https://demo.guru99.com/test/web-table-element.php");
 //		 
-		
+
 		// MS Edge browser
-		
-		
+
 		/*
 		 * System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") +
 		 * "//Drivers//msedgedriver.exe"); EdgeOptions myoptions = new EdgeOptions();
@@ -64,8 +58,7 @@ public class BrowserProfileChrome {
 		 * WebDriver driver = new EdgeDriver(myoptions);
 		 * driver.get("https://demo.guru99.com/test/web-table-element.php");
 		 */
-		 
-		
+
 	}
 
 }

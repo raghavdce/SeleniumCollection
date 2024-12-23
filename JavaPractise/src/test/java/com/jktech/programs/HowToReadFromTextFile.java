@@ -26,7 +26,7 @@ public class HowToReadFromTextFile {
 		
 		// to print on a new file
 		
-		FileWriter writer = new FileWriter("C:\\Users\\Ragavendran.v\\eclipse-workspace\\JavaPractise\\WriteFile.txt");
+		FileWriter writer = new FileWriter("C:\\Users\\Ragavendran.v\\eclipse-workspace\\JavaPractise\\ReadFile.txt");
 		writer.write(fileContent);
 		writer.close();
 		

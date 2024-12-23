@@ -21,9 +21,10 @@ public class SSLCertitificate {
 		ChromeOptions options = new ChromeOptions();
 		//options.setAcceptInsecureCerts(true);
 		options.addArguments("--start-maximized");
+		//options.addArguments("--headless");
+		options.addArguments("incognito");
 		options.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
-		//DesiredCapabilities cap = DesiredCapabilities.chrome();
-		//options.merge(cap);
+		options.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
 
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://expired.badssl.com/");

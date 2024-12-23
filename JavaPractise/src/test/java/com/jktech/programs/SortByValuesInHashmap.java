@@ -22,6 +22,8 @@ public class SortByValuesInHashmap {
 		
 		System.out.println("Before sorting the map : "+map);
 		
+		//to sort by value
+		
 		List<Entry<String,Integer>> list = new LinkedList<Entry<String,Integer>>(map.entrySet());
 		Collections.sort(list, new Comparator<Entry<String,Integer>>() {
 
@@ -32,16 +34,26 @@ public class SortByValuesInHashmap {
 			}
 		});
 		
-		/*
-		 * for(Entry<String,Integer> item:list) {
-		 * System.out.println("After sorting the map : "+item); }
-		 */
 		
-		HashMap<String, Integer> temp = new LinkedHashMap<String, Integer>();
-        for (Map.Entry<String, Integer> aa : list) {
-            temp.put(aa.getKey(), aa.getValue());
-        }
-        System.out.println("After sorting the map : "+temp);
+		  for(Entry<String,Integer> item:list) {
+		  System.out.println("After sorting the map : "+item); }
+		  
+		  //to sort by key
+		  
+		  Collections.sort(list, new Comparator<Entry<String,Integer>>() {
+
+			@Override
+			public int compare(Entry<String, Integer> o1, Entry<String, Integer> o2) {
+				// TODO Auto-generated method stub
+				return o1.getKey().compareTo(o2.getKey());
+			}
+		});
+		  
+		  for(Entry<String,Integer> item:list) {
+			  System.out.println("After sorting the map : "+item); }
+		 
+		
+		
         
 
 	}
