@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 public class Parameters {
 	
 	
-	@Test//(dataProvider = "data")
+	@Test(dataProvider = "data")
 	@org.testng.annotations.Parameters({"username","password"})
 	public void parametersExample(String username, String password) {
 		//System.setProperty("webdriver.chrome.driver", ".\\Drivers\\chromedriver.exe");
@@ -26,9 +26,16 @@ public class Parameters {
 		driver.findElement(By.id("user-name")).sendKeys(username);
 		driver.findElement(By.id("password")).sendKeys(password);
 		driver.findElement(By.id("login-button")).click();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		driver.quit();
 	}
 	
-	@DataProvider(name="data")
+	@DataProvider(name="data", parallel=true)
 	public Object[][] datafromexternalmethod(){
 		
 		Object[][] obj = {{"standard_user","secret_sauce"},{"locked_out_user","secret_sauce"},{"problem_user","secret_sauce"}};
@@ -37,7 +44,7 @@ public class Parameters {
 	}
 	
 	
-	@DataProvider(name="data1")
+	@DataProvider(name="data1", parallel = true)
 	public Object[][] datafromexternalmethod1(){
 		
 		Object[][] obj = {{"secret_sauce"},{"secret_sauce"},{"secret_sauce"}};

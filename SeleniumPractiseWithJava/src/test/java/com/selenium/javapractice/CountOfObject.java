@@ -11,7 +11,7 @@ public class CountOfObject {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		CountOfObject obj = new CountOfObject();
-		System.out.println(count);
+		CountOfObject obj2 = new CountOfObject();
 		CountOfObject obj1 = new CountOfObject();
 		System.out.println(count);
 

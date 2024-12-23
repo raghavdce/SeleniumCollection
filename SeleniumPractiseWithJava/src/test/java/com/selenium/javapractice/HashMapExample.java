@@ -7,6 +7,7 @@ import java.util.Map.Entry;
 import java.util.Set;
 
 public class HashMapExample {
+	
 
 	public static void main(String[] args) {
 
@@ -27,9 +28,10 @@ public class HashMapExample {
 
 		// to get all the key in one go as set
 		System.out.println(map.keySet());
+		
 		// to print all the keys separately
 		for (int i : map.keySet()) {
-			System.out.println(i);
+			System.out.println("After keyset : "+i);
 		}
 		// to get all values as a collection
 		System.out.println(map.values());

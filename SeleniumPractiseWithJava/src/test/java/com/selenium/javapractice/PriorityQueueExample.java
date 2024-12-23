@@ -20,7 +20,7 @@ public class PriorityQueueExample {
 		pq.add(0);
 		
 		System.out.println(pq);
-		pq.clear();		//--> to clear the value in the queue
+		//pq.clear();		//--> to clear the value in the queue
 		
 		//to get the first head element from queue use either element or peek() and the difference is,
 		//peek will return null if retrieval is failure

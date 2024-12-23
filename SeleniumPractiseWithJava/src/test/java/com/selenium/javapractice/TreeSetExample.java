@@ -18,6 +18,7 @@ public class TreeSetExample {
 				set.add(200);
 				set.add(85);
 				set.add(100);
+				System.out.println(set.first());
 				//set.add(null); --> will lead to null pointer exception even if it's declared as object type
 				
 				System.out.println(set);

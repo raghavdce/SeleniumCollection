@@ -14,7 +14,19 @@ import org.testng.annotations.Test;
 public class DataProvidersFromAnotherClass {
 	
 	
-	@Test(dataProvider = "data", dataProviderClass = Parameters.class)
+	@Test
+	public void interview() {
+		
+		int i=1;
+		while(i<=5) {
+			System.out.print(i+" ");
+			i++;
+		}
+		
+	}
+	
+	
+	//@Test(dataProvider = "data", dataProviderClass = Parameters.class)
 	@org.testng.annotations.Parameters({"username","password"})
 	public void parametersExample(String username, String password) {
 		//System.setProperty("webdriver.chrome.driver", ".\\Drivers\\chromedriver.exe");

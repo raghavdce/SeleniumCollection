@@ -2,53 +2,60 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-11T05:54:57 IST" name="Suite" finished-at="2024-12-11T05:55:19 IST" duration-ms="21699">
+  <suite started-at="2024-12-23T12:52:22 IST" name="Default suite" finished-at="2024-12-23T12:53:00 IST" duration-ms="38270">
     <groups>
     </groups>
-    <test started-at="2024-12-11T05:54:57 IST" name="ChromTest" finished-at="2024-12-11T05:55:08 IST" duration-ms="11088">
-      <class name="com.selenium.testngpractice.CrossBrowser">
-        <test-method signature="parametersExample(java.lang.String)[pri:0, instance:com.selenium.testngpractice.CrossBrowser@3d5c822d]" started-at="2024-12-11T05:54:57 IST" name="parametersExample" finished-at="2024-12-11T05:55:08 IST" duration-ms="11035" status="PASS">
+    <test started-at="2024-12-23T12:52:22 IST" name="Default test" finished-at="2024-12-23T12:53:00 IST" duration-ms="38270">
+      <class name="com.selenium.testngpractice.Parameters">
+        <test-method signature="parametersExample(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.testngpractice.Parameters@15bb5034]" started-at="2024-12-23T12:52:22 IST" name="parametersExample" data-provider="data" finished-at="2024-12-23T12:53:00 IST" duration-ms="38082" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametersExample -->
-      </class> <!-- com.selenium.testngpractice.CrossBrowser -->
-    </test> <!-- ChromTest -->
-    <test started-at="2024-12-11T05:54:57 IST" name="MSTest" finished-at="2024-12-11T05:55:12 IST" duration-ms="15264">
-      <class name="com.selenium.testngpractice.CrossBrowser">
-        <test-method signature="parametersExample(java.lang.String)[pri:0, instance:com.selenium.testngpractice.CrossBrowser@5b03b9fe]" started-at="2024-12-11T05:54:57 IST" name="parametersExample" finished-at="2024-12-11T05:55:12 IST" duration-ms="15219" status="PASS">
+        <test-method signature="parametersExample(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.testngpractice.Parameters@15bb5034]" started-at="2024-12-23T12:52:22 IST" name="parametersExample" data-provider="data" finished-at="2024-12-23T12:52:58 IST" duration-ms="35948" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametersExample -->
-      </class> <!-- com.selenium.testngpractice.CrossBrowser -->
-    </test> <!-- MSTest -->
-    <test started-at="2024-12-11T05:54:57 IST" name="FFTest" finished-at="2024-12-11T05:55:19 IST" duration-ms="21699">
-      <class name="com.selenium.testngpractice.CrossBrowser">
-        <test-method signature="parametersExample(java.lang.String)[pri:0, instance:com.selenium.testngpractice.CrossBrowser@54bff557]" started-at="2024-12-11T05:54:57 IST" name="parametersExample" finished-at="2024-12-11T05:55:19 IST" duration-ms="21655" status="PASS">
+        <test-method signature="parametersExample(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.testngpractice.Parameters@15bb5034]" started-at="2024-12-23T12:52:22 IST" name="parametersExample" data-provider="data" finished-at="2024-12-23T12:53:00 IST" duration-ms="37666" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametersExample -->
-      </class> <!-- com.selenium.testngpractice.CrossBrowser -->
-    </test> <!-- FFTest -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.selenium.testngpractice.Parameters -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
