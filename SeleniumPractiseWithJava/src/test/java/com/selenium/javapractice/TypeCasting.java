@@ -26,6 +26,6 @@ class TypeCasting {
         animal.makeSound(); 
         // This would give a compile error as fetch() is not 
         // a method in Animal class 
-        // animal.fetch(); 
+        //animal.fetch(); 
     } 
 }

@@ -27,7 +27,7 @@ public class HashMapExample {
 		System.out.println(map.isEmpty());
 
 		// to get all the key in one go as set
-		System.out.println(map.keySet());
+		System.out.println("The keys from map are : "+map.keySet());
 		
 		// to print all the keys separately
 		for (int i : map.keySet()) {

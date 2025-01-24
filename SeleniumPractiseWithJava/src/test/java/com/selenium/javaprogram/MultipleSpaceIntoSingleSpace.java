@@ -11,7 +11,7 @@ public class MultipleSpaceIntoSingleSpace {
 		String[] s1 = s.split(" ");
 		String newS = "";
 		for(int i=0; i<s1.length; i++) {
-			if(!(s1[i].isBlank())) {
+			if(!(s1[i].isEmpty())) {
 				newS = (newS+s1[i]) +" ";
 			}
 		}

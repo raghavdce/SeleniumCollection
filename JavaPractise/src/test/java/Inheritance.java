@@ -14,7 +14,7 @@ class Parent{
 	}
 }
 
-class Child extends Parent{
+class Child extends Parent {
 	
 	@Override
 	public void walk() {
@@ -35,10 +35,12 @@ public class Inheritance {
 		//explicit upcasting
 		Parent parentObj1  = new Child();
 		parentObj1.walk();		//Man Walk from child
+		
 		Child childObj = new Child();
 		childObj.walk();	//Man Walk from child
 		childObj.run();	//Man Run from child
 		childObj.humanRun();	//man Run from parent
+		
 		//Child childObj1 = (Child) new Parent();		//NA bcoz it will throw classcast exception
 		//childObj1.walk();
 		//line 40 can be changed as and this is eg., explicit downcasting

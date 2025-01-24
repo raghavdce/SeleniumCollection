@@ -17,11 +17,18 @@ public class DuplicateInList {
 		li.add(3);
 		li.add(2);
 		
+		//to remove duplicate
+		li.stream().distinct().forEach(s->System.out.println(s));
+		
+		System.out.println("====================");
+		
+		//to print the duplicate
 		Set<Integer> set = new HashSet<>();
 		for(int i : li)
 		if(set.add(i)==false) {
-			System.out.println(i);
+			//System.out.println(i);
 		}
+		
 		
 		
 			
